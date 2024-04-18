@@ -15,7 +15,7 @@ beauty:
 clean:
 	rm -f s21_cat
 
-test:
+test: s21_cat
 	chmod +x test.sh
 	./test.sh
 
